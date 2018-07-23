@@ -1,0 +1,29 @@
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+<br><br>
+
+<div class="container-fluid" style="background-color: powderblue" >
+    <form action="/postCollagen" method="post">
+    </form>
+</div>
+<h1> </h1>
+<form action="/portCollagen" method="post">
+    <td>id</td>
+    <td><input type="text" name="id" width="10" maxlength="5" required="required"></td> <br>
+
+    <td>name</td>
+    <td><input type="text" name="name" width="50" maxlength="45" required="required"> <br>
+
+    <td>Price</td>
+        <td><input type="number" name="price" width="10" maxlength="8" required="required"></td> <br>
+
+    <input type="submit" class="btn-success" value="Save">
+    <input type="reset" class="btn-danger" value="Cancal">
+</form>
